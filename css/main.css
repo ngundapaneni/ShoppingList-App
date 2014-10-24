@@ -1,0 +1,98 @@
+.top {
+	background-color: #A2E184;
+	width: 100%;
+	height: 400px;
+}
+
+.shoppingListLogo {
+	position: absolute;
+	top: 20px;
+	left: 500px;
+	width: 500px;
+	height: 120px;
+	background-image: url("../images/ShoppingList_logo_2.png");
+	background-repeat: no-repeat;
+}
+
+.shoppingList {
+	background-color: #EAFF9E;
+	position: absolute;
+	top: 150px;
+	left: 300px;
+	min-height: 400px;
+	width: 700px;
+	overflow: hidden;
+	padding-bottom: 10px;
+}
+
+.shoppingHeader {
+	text-align: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 50px;
+	width: 700px;
+    background-image: -webkit-linear-gradient(left,rgba(219,162,143, 1),rgba(219,162,143, 0.7));
+	background-image: -moz-linear-gradient(left,rgba(219,162,143, 1),rgba(219,162,143, 0.7));
+	background-image: -ms-linear-gradient(left,rgba(219,162,143, 1),rgba(219,162,143, 0.7));
+	background-image: -o-linear-gradient(left,rgba(219,162,143, 1),rgba(219,162,143, 0.7));
+	background-image: linear-gradient(to right, rgba(219,162,143, 1),rgba(219,162,143, 0.7));
+}
+
+.checkedItem {
+	float:left;
+}
+
+.shoppingHeader > p{
+	font-family: fantasy;
+	font-size: 17px;
+	font-weight: bold;
+	color: #277991;
+}
+
+.inputDiv {
+	position: relative;
+	top: 70px;
+	left: 200px;
+}
+
+#enteredItem {
+	float: left;
+	width: 300px;
+	margin-bottom: 20px;
+	margin-right: 10px;
+}
+
+#deleteBtn {
+	display: inline-block;
+	background-image: url("../images/delete_image_green.png");
+	background-repeat: no-repeat;
+	width: 120px;
+	height: 50px;
+}
+
+.clear {
+	clear: both;
+}
+
+.shopListItems {
+	display: none;
+}
+
+.listItem {
+	font-size: 20px;
+	font-family: fantasy;
+	font-weight: bold;
+	color: #612839;
+}
+
+.strikeThrough {
+	text-decoration: line-through;	
+	color: #612839;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#listItems{
+	width: 300px;
+}

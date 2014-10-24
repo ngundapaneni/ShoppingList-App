@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/main.css">
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="js/shoppingList.js"></script>
+</head>
+<body>
+	<div class="top"></div>
+	<div class="shoppingListLogo"></div>
+	<div class="shoppingList">
+		<div class="shoppingHeader">
+			<p>Click on the item to remove it temporarily from the list</p>
+			<p>Click on the delete to remove the checked items completely from the list</p>
+		</div>
+		<div class="inputDiv">
+			<input type="text" id="enteredItem"/>
+			<span id="deleteBtn"></span>
+			<div class="clear shopListItems" id="listDiv">
+				<ul id="listItems">
+				</ul>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

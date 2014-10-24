@@ -1,0 +1,36 @@
+body {margin:0;padding:0;}
+
+/* Headers and paragraphs */
+p, h1, h2, h3, h4, h5, h6 {font-size:100%;font-weight:normal;margin:0;padding:0;}
+
+/* Typography */
+a, a:visited, a:active {color:#000; text-decoration:none;}
+em, strong {font-style:normal;font-weight:normal;}
+q:before, q:after, blockquote:before, blockquote:after {content: "";}
+q {quotes:"" "";font-style:normal;font-weight:normal;padding:0;}
+blockquote {quotes:"" "";font-size:100%;font-style:normal;font-weight:normal;padding:0;margin:0;}
+
+/* Rulers */
+hr {height:0;width:100%;padding:0;margin:0;border:0;border-top:1px solid #000;}
+
+/* Images */
+img {margin:0;padding:0;border:none;}
+
+/* Definition lists */
+dl, dt, dd {margin:0;padding:0;font-size:100%;}
+
+/* Ordered and unordered lists */
+ul, ol { margin:0;padding:0;list-style:none outside none;font-size:100%;}
+li {padding:0;margin:0;font-size:100%;}
+
+/* Tables */
+table {font-size:100%;border-collapse:collapse;margin:0;padding:0;}
+td, th {font-size:100%;text-align:left;vertical-align:top;font-style:normal;font-weight:normal;}
+caption {text-align:left;font-style:normal;font-weight:normal;}
+
+/* Forms */
+form {margin:0;padding:0;border:0;font-size:100%;}
+fieldset {border:0;padding:0;margin:0;font-size:100%;}
+legend {color:#000;}
+input, textarea, select {font-size:100%;}
+label {font-size:100%;}
