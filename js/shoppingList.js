@@ -1,11 +1,5 @@
 var counter = 0;
 $(document).ready(function() {
-	/*
-		$("#btnImg").on("click", function() {
-			showListItems(counter);
-			counter = counter;
-		}
-	*/
 	$(".inputDiv input#enteredItem").on("keypress", function(event) {
 		if(event.which == 13) {
 			if($("#enteredItem").val() == "") {
